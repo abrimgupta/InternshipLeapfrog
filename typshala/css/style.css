@@ -1,0 +1,28 @@
+div#container{
+	width:600px;
+	height:500px;
+	margin:auto;
+	background:#ececec;	
+	position: relative;
+	outline:2px solid blue;
+	display: block;
+	overflow: hidden;
+}
+.letter{
+	position: absolute;
+	background-color: white;
+	font:Arial;
+	font-size: 20px;
+	letter-spacing: 5px;
+	outline:2px solid blue;
+	padding:0px 10px 0px 10px;
+}
+div#textContainer{
+	width:200px;
+	height:50px;
+	margin:auto;
+	padding-left: 10px;
+	padding-top: 20px;
+	outline: 1px solid black;
+
+}

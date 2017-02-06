@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+div.playArea{
+	position: relative;
+	width:300px;
+	height:600px;
+	margin: auto;
+	border:1px solid black;
+	background:url('../images/road1.png') repeat-y;
+	overflow: hidden;
+}
+div.infoBar{
+	width: 380px;
+	height:500px;
+	margin-left:50px;
+	position: absolute;
+	background-color: #000000;
+	color:#ffffff;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+	div.infoBar img{
+		margin-top: -70px;
+		margin-left: -110px;
+	}
+	div.infoBar span{
+		font-size: 20px;
+		font-family: arial;
+	}
+		div.infoBar p{
+			margin-left: -50px;
+			font-size: 14px;
+		}
+
+		span#info{
+			font-size: 40px;
+			color:yellow;
+		}
+	div.infoBar button{
+		cursor: pointer;
+		border-radius: 360;
+		padding-left: 10px;
+		padding-right: 10px;
+		background:yellow;
+		font-size: 20px;
+	}
+div.carDiv{
+	width:100px;
+	height:200px;
+	position: absolute;
+}
